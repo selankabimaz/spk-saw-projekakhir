@@ -75,7 +75,7 @@ class Email extends BaseConfig
      *
      * @var int
      */
-    public $SMTPTimeout = 5;
+    public $SMTPTimeout = 60;
 
     /**
      * Enable persistent SMTP connections
@@ -89,7 +89,7 @@ class Email extends BaseConfig
      *
      * @var string
      */
-    public $SMTPCrypto = 'tls';
+    public $SMTPCrypto = 'tsl';
 
     /**
      * Enable word-wrap
